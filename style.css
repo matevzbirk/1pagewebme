@@ -1,0 +1,85 @@
+/* lay out */
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 1000px;
+    float: left;
+}
+/* back grounds colors */
+#home {
+    background-color: rgb(126, 245, 152);
+}
+#about{
+    background-color: yellow;
+}
+#šola{
+    background-color: rgba(33, 240, 205, 0.739);
+    
+}
+#izkušnje{
+    background-color: pink;
+}
+#cilji{
+    background-color: rgba(128, 0, 128, 0.767);
+}
+/* the navigation bar */
+.nav{
+    width: 100%; 
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+}
+.nav ul{
+    width: fit-content; margin: auto; list-style: none;
+}
+.nav li{
+    float: left;
+    margin-right: 30px;
+}
+.nav a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* O meni */
+.section img{
+    border-radius: 25%;
+    float: right;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.section p {
+    font-size: 25px;
+    font-family: Arial;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 20px;
+    color: black;
+}
+.section h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.tobig{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.section-mojipodatki p{
+    font-size: 25px;
+    font-family: Arial;
+    text-align: left;
+    padding-top: 60px;
+    padding-left: 20px;
+    color: black;
+    text-align: center;
+}
+.section-mojipodatki h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
